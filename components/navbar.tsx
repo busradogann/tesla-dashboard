@@ -21,30 +21,30 @@ export default function Navbar() {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className="w-64 h-screen bg-white shadow-md fixed text-black hidden md:block rounded-[20px]">
+      <nav className="hidden md:block w-64 h-screen bg-white shadow-md fixed text-black rounded-lg">
         <div className="flex flex-col align-start h-full justify-between p-6">
           <div>
             <Image src="/icon.svg" width={180} height={24} alt="Tesla" />
             <ul className="mt-8 space-y-4 mb-8">
-              <li className="p-2 flex block pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
+              <li className="p-2 flex pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
                 <div className="flex">
                   <img src="/icons/vector.svg" alt="Reports" className="h-5 w-5" />
                   <a href="#" className="pl-4 text-sm">Reports</a>
                 </div>
               </li>
-              <li className="p-2 flex block pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
+              <li className="p-2 flex pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
                 <div className="flex">
                   <img src="/icons/quiz.svg" alt="Library" className="h-5 w-5" />
                   <a href="#" className="pl-4 text-sm">Library</a>
                 </div>
               </li>
-              <li className="p-2 flex block pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
+              <li className="p-2 flex pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
                 <div className="flex">
                   <img src="/icons/people.svg" alt="People" className="h-5 w-5" />
                   <a href="#" className="pl-4 text-sm">People</a>
                 </div>
               </li>
-              <li className="p-2 flex block pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
+              <li className="p-2 flex pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
                 <div className="flex">
                   <img src="/icons/assignments.svg" alt="Activities" className="h-5 w-5" />
                   <a href="#" className="pl-4 text-sm">Activities</a>
@@ -54,13 +54,13 @@ export default function Navbar() {
 
             <h5 className="pt-6 text-black/50">Support</h5>
             <ul className="mt-2 space-y-4">
-              <li className="p-2 flex block pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
+              <li className="p-2 flex pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
                 <div className="flex">
                   <img src="/icons/bulb.svg" alt="Get Started" className="h-5 w-5" />
                   <a href="#" className="pl-4 text-sm">Get Started</a>
                 </div>
               </li>
-              <li className="p-2 flex block pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
+              <li className="p-2 flex pl-4 rounded hover:bg-regal-blue/10 hover:text-regal-blue cursor-pointer">
                 <div className="flex">
                   <img src="/icons/settings.svg" alt="Settings" className="h-5 w-5" />
                   <a href="#" className="pl-4 text-sm">Settings</a>
@@ -85,7 +85,7 @@ export default function Navbar() {
       </nav>
 
       {/* Mobile Navbar */}
-      <nav className="bg-gray-800 text-white p-1 md:hidden">
+      <nav className="block md:hidden bg-gray-800 text-white p-1">
         <button
           className="p-2 focus:outline-none"
           onClick={() => setShowMenu(!showMenu)}>
