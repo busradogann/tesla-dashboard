@@ -1,11 +1,11 @@
-## About
+## Proje Hakkında
 Nextjs, Tailwind ve chartjs kullanılarak hazırlanmış, raporların, kullanıcı ve ekiplerin puan tablosunun, makale istatistikleri ve daha fazlasının bulunduğu bir dashboard projesi.
 
 Projede Nextjs, ui için Tailwind, grafikler için Chartjs gibi teknolojiler kullanıldı. Veriler için Nextjs api'si kullanıldı.
 
 ![Tesla Dashboard Preview](public/dashboard-preview.png)
 
-## Installation
+## Kurulum
 - npm'in kurulu olduğunu varsayarak, projeyi bilgisayarınıza alın;
 ```bash
   git clone https://github.com/busradogann/tesla-dashboard.git
@@ -26,6 +26,6 @@ Projede Nextjs, ui için Tailwind, grafikler için Chartjs gibi teknolojiler kul
   npm run dev
 ```
 
-## NOTE
+## Not
 - Node.js versiyon: Node.js'nin uyumlu bir sürümünü (tercihen 16.x veya üstü) kullandığınızdan emin olun.
 - Next.js versiyon: Proje Next.js 14.2.5 sürümüyle oluşturulmuştur.
